@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/caseone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="#00bcd4"
+        android:onClick="showCaseOneDialog"
+        android:text="Show Case-01 Dialog"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/caseotwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#7fdbda"
+        android:onClick="showCasetwoDialog"
+        android:text="Show Case-02 Dialog"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/casethree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#8fcfd1"
+        android:onClick="showCaseThreeDialog"
+        android:text="Show Case-03 Dialog"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/casefour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#d3dbff"
+        android:onClick="showCaseFoureDialog"
+        android:text="Show Case-04 Dialog"
+        android:textAllCaps="false" />
+
+</LinearLayout>
